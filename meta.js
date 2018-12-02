@@ -2,27 +2,27 @@ module.exports = {
   prompts: {
     name: {
       name: 'projectName',
-      message: '项目名字？',
+      message: 'Project Name?',
       default: ':projectName:'
     },
     description: {
       name: 'projectDesc',
-      message: '项目描述？',
+      message: 'Project Description?',
       default: ':projectName:'
     },
     version: {
       name: 'version',
-      message: '项目版本？',
+      message: 'Project Version?',
       default: ':version:'
     },
     username: {
       name: 'yourname',
-      message: `你的名字？`,
+      message: 'Your Name?',
       default: ':gitUser:'
     },
     email: {
       name: 'youremail',
-      message: `你的 Email？`,
+      message: 'Your Email?',
       default: ':gitEmail:'
     }
   },
