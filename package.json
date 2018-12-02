@@ -1,8 +1,9 @@
 {
   "name": "@fetp/fetp-template-vue",
-  "version": "0.0.1",
-  "description": "fetp-template-basic is a build template for vue2.0",
+  "version": "0.0.2",
+  "description": "A template vue2.0",
   "scripts": {
+    "pub": "npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

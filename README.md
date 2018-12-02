@@ -2,14 +2,20 @@
 
 fetp-template-basic is a basic build template for vue2.0
 
-##  Install
+## init project
 
-```
-$ npm i -g fetp
+```bash
+$ fetp i basic
 ```
 
-## Usage
+## install dependencies
 
+```bash
+$ npm install
 ```
-$ fetp i vue
+
+## running service
+
+```bash
+$ fetp d
 ```
