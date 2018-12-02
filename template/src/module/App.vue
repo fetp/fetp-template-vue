@@ -1,30 +1,43 @@
 <template>
   <div id="app">
-    <img src="@/img/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloFetp :text="text"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/component/HelloWorld.vue'
-
+import HelloFetp from '@/component/HelloFetp'
 export default {
   name: 'app',
+  data () {
+    return {
+      text: 'Hello FETP'
+    }
+  },
   components: {
-    HelloWorld
+    HelloFetp
   }
 }
 </script>
 
 <style lang="scss">
-@import '~@/css/index';
+@import '~@/css/index.scss';
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  line-height: 500px;
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: #000;
+}
+.logo {
+  display: block;
+  width: 200px;
+  height: 200px;
 }
 </style>

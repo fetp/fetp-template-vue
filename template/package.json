@@ -3,13 +3,13 @@
   "version": "{{ version }}",
   "description": "{{ projectDesc }}",
   "author": "{{ yourname }} <{{ youremail }}>",
-  "license": "MIT",
+  "license": "",
   "dependencies": {
-    "vue": "^2.5.14"
+    "vue": "^2.5.17"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "eslintConfig": {
+    "extends": "@fetp/eslint-config-fetp"
   },
   "eslintIgnore": [
     "/dev",
